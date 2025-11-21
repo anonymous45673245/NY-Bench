@@ -1,0 +1,12 @@
+cat << 'EOF' > .gitignore
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+predictions/
+detections/
+masks/
+data/
+models/
+*.log
+EOF
