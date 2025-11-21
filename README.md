@@ -11,11 +11,11 @@ Instruction Faithfulness (IF): How accurately the edit reflects the text instruc
 
 This repository contains the official evaluation pipeline, tools, and metric calculations.
 
-📂 Directory Structure
+## 📂 Directory Structure
+
 Ensure your project is organized as follows before running the evaluation:
 
-Plaintext
-
+```text
 NY-BENCH/
 ├── data/                    # Dataset (Must be downloaded separately)
 │   ├── images/              # Original and GT images
@@ -31,11 +31,6 @@ NY-BENCH/
 ├── nybench/                 # Core Library Code
 ├── scripts/                 # Evaluation Scripts (02, 03, 04)
 └── requirements.txt         # Dependencies
-🛠️ Installation & Prerequisites
-1. Environment Setup (Linux Recommended)
-We recommend using Conda to manage dependencies.
-
-Bash
 
 # 1. Create and activate a new environment (Python 3.10 recommended)
 conda create -n nybench python=3.10 -y
