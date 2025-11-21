@@ -1,5 +1,5 @@
 # 🚀 NY-BENCH: A Comprehensive Benchmark for Controllable Image Editing
-````markdown
+
 
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
@@ -13,7 +13,7 @@
 This repository contains the official evaluation pipeline, tools, and metric calculations.
 
 ---
-````
+
 ## 📂 Directory Structure
 ````
 Ensure your project is organized as follows before running the evaluation:
